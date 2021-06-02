@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dilisto | Home</title>
+    <link rel="stylesheet" href="css/syles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://unpkg.com/pattern.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+<div class=" contenedor-principal">
+  <div class="row w-100 h-100">
+    <div class="col-12  imagen-dilisolver h-100 w-100">
+      <header class="header">
+        <div class="contenedor-imagen">
+          <img class="imagen" src="images/logo2.png" alt="" />
+        </div>
+      </header>
+      <div class="contenedor-parrafo">
+        <div class="parrafo">
+          <span class="titulo">Descubre</span>
+          <div style="font-size: 18px">
+            <p class="mt-4">
+              Como
+              <b
+                >revolucionamos la gestión de trámites y diligencias
+                empresariales</b
+              >
+              a través de Inteligencia Artificial y la Analítica de Datos
+            </p>
+          </div>
+        </div>
+
+        <div class="contenedor-iconos">
+          <a href=""><i class="icon-size bi bi-linkedin"></i></a>
+          <a href="https://www.facebook.com/Dilisolver-110826891076700"><i class="icon-size bi bi-facebook"></i></a>
+          <a href="https://www.youtube.com/channel/UCAhCZFs44azZkrD_ait1ZWw"><i class="icon-size bi bi-youtube"></i></a>
+
+   
+          
+          
+        </div>
+      </div>
+      <div class="contenedor-informacion">
+        <div class="contenedor-parrafo2">
+          <p>
+            Conéctate con nuestra historia, donde se unen la voluntad, la
+            capacidad científica y el espíritu innovador
+          </p>
+          <div class="inputs">
+            <input type="text" name="Nombre" placeholder="Nombre" />
+            <input type="text" name="Nombre" placeholder="Email" />
+            <!--    <input type="text" name="Nombre" placeholder="Participas como" /> -->
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn">
+                Participas como
+              </button>
+              <div id="myDropdown" class="dropdown-content">
+                <a href="#">Colaborador</a>
+                <a href="#">Agencia</a>
+                <a href="#">A</a>
+              </div>
+            </div>
+            <a
+              class="raven-button raven-button-link"
+              href="#inspiracion"
+              tabindex="0"
+              
+            >
+              <span class="raven-button-content">
+                <span class="raven-button-text"> Ir por Inspiración </span>
+              </span>
+            </a>
+            <input type="checkbox" class="checkbox-round" name="Nombre" /><span
+              class="texto-chebox"
+              >Check habeas data</span
+            >
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+    <div class="video-responsive">
+      <iframe
+        class="borde-video"
+
+        src="https://www.youtube.com/embed/8SgslyeACPA"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</div>
+<footer class="footer mt2">
+  <div class="contenedor-imagen-footer">
+    <img class="imagen_footer" src="images/minciencias.svg" alt="" />
+    <img class="imagen_footer" src="images/tecnoparque.png" alt="" />
+    <img class="imagen_footer" src="images/grindda.png" alt="" />
+    <img class="imagen_footer" src="images/proyectiza.png" alt="" />
+  </div>
+</footer>
+
+    
+
+  </body>
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown menu if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches(".dropbtn")) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains("show")) {
+            openDropdown.classList.remove("show");
+          }
+        }
+      }
+    };
+  </script>
+
+</html>
