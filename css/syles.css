@@ -706,11 +706,11 @@ a.raven-button2 {
     margin: 1rem 4% 10% 1px;
   }
   .parrafo2 {
-    margin-top: 64px;
+    margin-top: 64px !important;
     margin-bottom: 2%;
     width: 100%;
     font-size: 22px;
-  }
+}
   .button,
   a.button {
     display: inline-block;
@@ -897,11 +897,11 @@ a.raven-button2 {
     margin: 1rem 4% 10% 1px;
   }
   .parrafo2 {
-    margin-top: 64px;
+    margin-top: 64px !important;
     margin-bottom: 2%;
     width: 100%;
     font-size: 22px;
-  }
+}
   .button,
   a.button {
     display: inline-block;
@@ -1089,11 +1089,11 @@ a.raven-button2 {
     margin: 1rem 4% 10% 1px;
   }
   .parrafo2 {
-    margin-top: 64px;
+    margin-top: 64px !important;
     margin-bottom: 2%;
     width: 100%;
     font-size: 22px;
-  }
+}
   .button,
   a.button {
     display: inline-block;
@@ -1281,11 +1281,11 @@ a.raven-button2 {
     margin: 1rem 4% 10% 1px;
   }
   .parrafo2 {
-    margin-top: 64px;
+    margin-top: 64px !important;
     margin-bottom: 2%;
     width: 100%;
     font-size: 22px;
-  }
+}
   .button,
   a.button {
     display: inline-block;
